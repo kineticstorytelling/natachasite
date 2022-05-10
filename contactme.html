@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="styles.css">
     <title>Contact me</title>
   </head>
   <body>
@@ -20,20 +20,20 @@
       </header>
   
     <section id="contact" class="contact">
-    <img class="contact-img" src="/images/pexels-mikhail-nilov-7828315.jpg" alt="">
+    <img class="contact-img" src="images/pexels-mikhail-nilov-7828315.jpg" alt="">
     <div class="container">
       <div class="text">Contact me</div>
       <form action="#">
          <div class="form-row">
             <div class="input-data">
-               <input type="text" required>
+               <input type="text" required id="inp">
                <div class="underline"></div>
                <label for="first name">First Name</label>
             </div>
             <div class="input-data">
-               <input type="text" required>
+               <input type="text" required id="inpt">
                <div class="underline"></div>
-               <label for="last name">Last Name</label>
+               <label >Last Name</label>
             </div>
          </div>
          <div class="form-row">
@@ -51,14 +51,14 @@
          <div class="form-row">
             <div class="input-data textarea">
                <textarea rows="8" cols="80" required></textarea>
-               <br />
+               <br>
                <div class="underline"></div>
-               <label for="">Message</label>
-               <br />
+               <label for="message area">Message</label>
+               <br>
                <div class="form-row submit-btn">
                   <div class="input-data">
                      <div class="inner"></div>
-                     <input type="submit" value="submit">
+                     <input type="submit" value="submit" id="submit">
                   </div>
                </div>
             </div>
@@ -71,5 +71,6 @@
     <p>Cambridge, MA 02151</p>
     <p>Copyright &copy;2022 </p>
 </footer>
+<script src="script.js"></script>
   </body>
 </html>
